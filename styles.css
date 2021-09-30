@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url( assets/back.png);
+    background-repeat: repeat;
+    height: 100%;
+    width: 100%;
+
+}
+
+.main-container{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+
+    flex-direction: row;
+
+    
+}
+.title-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.actions-container{
+    margin-top: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.arrow{
+    height: 6%;
+    width: 6%;
+    background-color: rgb(196, 196, 196);
+    border-radius:  49%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table-content{
+    border-collapse: collapse;
+}
+.arrow > img{
+    height: 80%;
+    width: 80%;
+}
+
+.arrow:active{
+    background-color: rgb(2, 123, 150);
+}
+.tabledata-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7%;
+    width: 100%;
+    height: 100%;
+}
+
+tr > th{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(209, 209, 209);
+    border: 1px solid black;  
+}
+
+tr > td{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(209, 209, 209);
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+tr > td:hover{
+    background-color: darkgray;
+}
+tr > td:active{
+    background-color: darkcyan;
+}
+
+#monday{
+    background-color: red;
+    color: white;   
+}
+#tuesday{
+    background-color: violet;
+    color: white;   
+}
+#wednesday{
+    background-color: darkviolet;
+    color: white;   
+}
+#thursday{
+    background-color: darkgreen;
+    color: white;   
+}
+#friday{
+    background-color: aquamarine;
+    color: white;   
+}
+#saturday{
+    background-color: cadetblue;
+    color: white;   
+}
+#sunday{
+    background-color: red;
+    color: white;   
+}
+
+
